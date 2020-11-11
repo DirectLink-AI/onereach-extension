@@ -1,0 +1,58 @@
+{
+  "name": "OneReach.ai Keyboard Shortcuts",
+  "version": "1.0",
+  "description": "Add navigation to OneReach.ai",
+  "manifest_version": 2,
+  "icons": {
+    "16": "favicon-2.png",
+    "48": "favicon-1.png",
+    "128": "favicon-1.png"
+  },
+  "permissions": ["*://*.onereach.ai/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.onereach.ai/*"],
+      "js": ["main.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "commands": {
+    "save-activate": {
+      "suggested_key": {
+        "default": "Alt+S",
+        "mac": "Alt+S"
+      },
+      "description": "Save and activate"
+    },
+    "tab-node": {
+      "description": "Tab node"
+    },
+    "show-on-tree": {
+      "description": "Show on tree"
+    },
+    "split-tree": {
+      "suggested_key": {
+        "default": "Alt+X",
+        "mac": "Alt+X"
+      },
+      "description": "Split tree"
+    },
+    "clone-tree": {
+      "suggested_key": {
+        "default": "Alt+D",
+        "mac": "Alt+D"
+      },
+      "description": "Clone tree"
+    },
+    "delete-tree": {
+      "suggested_key": {
+        "default": "Alt+Q",
+        "mac": "Alt+Q"
+      },
+      "description": "Delete tree"
+    }
+  }
+}
