@@ -1,12 +1,10 @@
-
-
 const click = (elem) => {
 	const evt = new MouseEvent('click', {
 		bubbles: true,
 		cancelable: true,
 		view: window
 	});
-	const canceled = !elem.dispatchEvent(evt);
+  const canceled = (elem != null) && !elem.dispatchEvent(evt);
 };
 
 const tabNode = (() => {
@@ -46,6 +44,7 @@ const getcontrols = () => {
 const command = e => `${e.altKey && 'alt+' + e.key}` 
 
 document.addEventListener('keydown', e => {
+  if (document.getElementsByClassName('builder').length == 0) return;
   switch(command(e)) {
     case 'alt+a':
       tabNode();
@@ -85,8 +84,10 @@ const everyMinute = () => {
 
 setTimeout(() =>{
   const breadcrumbs = document.getElementsByClassName('breadcrumbs')
-  const bot = breadcrumbs[0]?.children[1]?.children[0]?.innerText
-  const flow = breadcrumbs[0]?.children[2]?.children[0]?.innerText
-  document.title = `${bot} > ${flow}`;
+  if (breadcrumbs.length > 0) {
+    const bot = breadcrumbs[0]?.children[1]?.children[0]?.innerText
+    const flow = breadcrumbs[0]?.children[2]?.children[0]?.innerText
+    document.title = `${bot} > ${flow}`;
+  }
   everyMinute();
 }, 10000);
