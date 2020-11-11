@@ -75,19 +75,23 @@ document.addEventListener('keydown', e => {
 
 const everyMinute = () => {
   save();
-  // const breadcrumbs = document.getElementsByClassName('breadcrumbs')
-  // const bot = breadcrumbs[0]?.children[1]?.children[0]?.innerText
-  // const flow = breadcrumbs[0]?.children[2]?.children[0]?.innerText
-  // document.title = `${bot} > ${flow}`;
   setTimeout(everyMinute, 60000)
 };
 
-setTimeout(() =>{
+const updateTitle = () => {
   const breadcrumbs = document.getElementsByClassName('breadcrumbs')
   if (breadcrumbs.length > 0) {
     const bot = breadcrumbs[0]?.children[1]?.children[0]?.innerText
     const flow = breadcrumbs[0]?.children[2]?.children[0]?.innerText
     document.title = `${bot} > ${flow}`;
   }
+};
+
+window.onload = () =>{
+  setTimeout(updateTitle, 2000);
   everyMinute();
-}, 10000);
+}
+
+window.onhashchange = () => {
+  setTimeout(updateTitle, 2000);
+};
