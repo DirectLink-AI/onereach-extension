@@ -8,17 +8,19 @@ Provides keyboard shortcuts for OneReach.ai Flowbuilder
 1. Click on **Load unpacked**
 1. Select the repository folder
 
-## Configuration
-1. Open `chrome://extensions/shortcuts` or `edge://extensions/shortcuts` or `brave://extensions/shortcuts` etc.
-1. Type in preferred keyboard shortcuts for each command under **OneReach.ai Keyboard Shortcuts**
-    - *Recommended shortcuts*:
-    - Clone tree: `Alt + D` [(D)uplicate]
+## Overview
+- Shortcuts:
+    - Clone tree: `Alt + C` [(C)lone]
     - Delete tree: `Alt + Q` [(Q)uit]
     - Save and activate: `Alt + S` [(S)ave]
     - Show on tree: `Alt + G` [(G)o]
     - Split tree: `Alt + X` [Like `Ctrl + X` for cut]
-    - Tab node: `Alt + F` [(F)ind? Just easy to type...]
+    - Tab node: `Alt + A` [Just easy to type...]
+- Dynamic title
+- Autosave (WIP)
+
     
 ## Roadmap
 Not sure yet...  
 Would be cool to be able to search the entire flow source code
+Maybe add undo functionality
