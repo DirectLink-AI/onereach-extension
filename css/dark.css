@@ -1,0 +1,323 @@
+.dark-mode[data-v-6ba412c0] {
+  height: 0;
+}
+
+@media screen {
+  html.dark {
+    text-shadow: 0 0 0 !important;
+    background: #1b1a19 !important;
+  }
+  html.dark,
+  html.dark #Emojis .container-emoji .grid-emojis span,
+  html.dark :not(object):not(body) > embed,
+  html.dark [background],
+  html.dark [style*="background-image:url"],
+  html.dark [style*="background-image: url"],
+  html.dark [style*="background:url"],
+  html.dark [style*="background: url"],
+  html.dark iframe,
+  html.dark img,
+  html.dark object,
+  html.dark svg image,
+  html.dark twitterwidget,
+  html.dark video {
+    -webkit-filter: invert(80%) hue-rotate(200deg) !important;
+    filter: invert(80%) hue-rotate(200deg) !important;
+  }
+  html.dark [background] *,html.dark [style*="background-image:url"] *,html.dark [style*="background-image: url"] *,html.dark [style*="background:url"] *,html.dark [style*="background: url"] *,html.dark img[src^="https://s0.wp.com/latex.php"],html.dark input,html.dark twitterwidget .NaturalImage-image
+  {
+    -webkit-filter: none !important;
+    filter: none !important;
+  }
+  html.dark :-webkit-full-screen,
+  html.dark :-webkit-full-screen * {
+    -webkit-filter: none !important;
+    filter: none !important;
+  }
+  html.dark :-ms-fullscreen,
+  html.dark :-ms-fullscreen * {
+    -webkit-filter: none !important;
+    filter: none !important;
+  }
+  html.dark :fullscreen,
+  html.dark :fullscreen * {
+    -webkit-filter: none !important;
+    filter: none !important;
+  }
+  html.dark .compatibility-with-darkreader-below-4-3-3 {
+    background: #fff !important;
+  }
+  html.dark .bot-icon-wrap .bot-icon-content .bot-icon-img {
+    -webkit-filter: none !important;
+    filter: none !important;
+  }
+  html.dark .app-header,
+  html.dark .app-header .logo-section,
+  html.dark .or-tree {
+    -webkit-filter: invert(100%) hue-rotate(180deg) brightness(100%)
+      contrast(90%) !important;
+    filter: invert(100%) hue-rotate(180deg) brightness(100%) contrast(90%) !important;
+  }
+  html.dark .ui-snackbar.flow-action-snackbar {
+    -webkit-filter: invert(100%) hue-rotate(180deg) !important;
+    filter: invert(100%) hue-rotate(180deg) !important;
+  }
+  html.dark .or-tree .paths path {
+    stroke: #414548;
+  }
+  html.dark .or-tree #path-arrow-end {
+    fill: #414548;
+  }
+  html.dark .or-tree .tooltip-wrapper tspan.tooltip-title .highlight {
+    fill: #fff;
+  }
+  html.dark .or-tree .tree-node .step-shape {
+    fill: #000;
+    stroke: #000;
+  }
+  html.dark .or-tree .tree-node .step-shape .outer-shape {
+    stroke: #414548;
+  }
+  html.dark .or-tree .tree-node .step-icon {
+    fill: #aeb1b3;
+  }
+  html.dark .or-tree .tree-node .custom-step-icon {
+    -webkit-filter: none !important;
+    filter: none !important;
+  }
+  html.dark .or-tree .tree-node.active .step-shape {
+    fill: #293d48;
+    stroke: #293d48;
+  }
+  html.dark .or-tree .tree-node.active .step-shape .outer-shape {
+    stroke: #aeb1b3;
+    fill: #293d48;
+  }
+  html.dark .or-tree .tree-node.active .step-shape .inner-shape {
+    stroke: #293d48;
+  }
+  html.dark .or-tree .tree-node.active .step-icon {
+    fill: #fff;
+  }
+  html.dark .or-tree .tree-node.step-error .step-icon {
+    fill: #000;
+  }
+  html.dark .or-tree .tree-node.step-error.active .step-shape {
+    fill: #293d48;
+    stroke: #293d48;
+  }
+  html.dark .or-tree .tree-node.step-error.active .step-shape .outer-shape {
+    stroke: #ff8c82;
+    fill: #293d48;
+  }
+  html.dark .or-tree .tree-node.step-error.active .step-shape .inner-shape {
+    stroke: #293d48;
+  }
+  html.dark .or-tree .tree-node.step-error.active .step-icon {
+    fill: #fff;
+  }
+  html.dark .or-tree g.empty-tree-node svg.empty-node svg.step-shape {
+    fill: #000;
+  }
+  html.dark .or-tree g.empty-tree-node svg.empty-node.hover svg.step-shape,
+  html.dark .or-tree g.empty-tree-node svg.empty-node svg.step-shape:active,
+  html.dark .or-tree g.empty-tree-node svg.empty-node svg.step-shape:hover {
+    fill: #293d48;
+  }
+  html.dark .gu-mirror .step-shape {
+    -webkit-filter: invert(100%) hue-rotate(180deg) brightness(110%)
+      contrast(80%) !important;
+    filter: invert(100%) hue-rotate(180deg) brightness(110%) contrast(80%) !important;
+    stroke: #414548;
+  }
+  html.dark .gu-mirror .step-shape .custom-step-icon {
+    -webkit-filter: none !important;
+    filter: none !important;
+  }
+  html.dark .flow-step-list-wrapper .steps-wrapper .step-template .step-shape {
+    -webkit-filter: invert(100%) hue-rotate(180deg) brightness(110%)
+      contrast(80%) !important;
+    filter: invert(100%) hue-rotate(180deg) brightness(110%) contrast(80%) !important;
+    stroke: #414548;
+  }
+  html.dark
+    .flow-step-list-wrapper
+    .steps-wrapper
+    .step-template
+    .step-shape
+    .custom-step-icon {
+    -webkit-filter: none !important;
+    filter: none !important;
+  }
+  html.dark
+    .flow-step-list-wrapper
+    .steps-wrapper
+    .step-template.is-selected
+    .step-shape:not(.drag-mirror) {
+    fill: #293d48;
+    stroke: #fff;
+  }
+  html.dark-svg {
+    -webkit-filter: url(#dark-reader-filter) !important;
+    filter: url(#dark-reader-filter) !important;
+    text-shadow: 0 0 0 !important;
+    background: #1b1a19 !important;
+  }
+  html.dark-svg #Emojis .container-emoji .grid-emojis span,
+  html.dark-svg .app-header,
+  html.dark-svg .app-header *,
+  html.dark-svg :not(object):not(body) > embed,
+  html.dark-svg [background],
+  html.dark-svg [style*="background-image:url"],
+  html.dark-svg [style*="background-image: url"],
+  html.dark-svg [style*="background:url"],
+  html.dark-svg [style*="background: url"],
+  html.dark-svg img,
+  html.dark-svg object,
+  html.dark-svg svg image,
+  html.dark-svg twitterwidget,
+  html.dark-svg video {
+    -webkit-filter: url(#dark-reader-reverse-filter) !important;
+    filter: url(#dark-reader-reverse-filter) !important;
+  }
+  html.dark-svg [background] *,html.dark-svg [style*="background-image:url"] *,html.dark-svg [style*="background-image: url"] *,html.dark-svg [style*="background:url"] *,html.dark-svg [style*="background: url"] *,html.dark-svg img[src^="https://s0.wp.com/latex.php"],html.dark-svg input,html.dark-svg twitterwidget .NaturalImage-image
+  {
+    -webkit-filter: none !important;
+    filter: none !important;
+  }
+  html.dark-svg :-webkit-full-screen,
+  html.dark-svg :-webkit-full-screen * {
+    -webkit-filter: none !important;
+    filter: none !important;
+  }
+  html.dark-svg :-ms-fullscreen,
+  html.dark-svg :-ms-fullscreen * {
+    -webkit-filter: none !important;
+    filter: none !important;
+  }
+  html.dark-svg :fullscreen,
+  html.dark-svg :fullscreen * {
+    -webkit-filter: none !important;
+    filter: none !important;
+  }
+  html.dark-svg .compatibility-with-darkreader-below-4-3-3 {
+    background: #fff !important;
+  }
+  html.dark-svg
+    .app-header
+    .header-links
+    button.active-btn
+    .ui-button__content
+    a,
+  html.dark-svg
+    .app-header
+    button.header-select.has-dropdown
+    .ui-button__content,
+  html.dark-svg .bot-icon-wrap .bot-icon-content .bot-icon-img {
+    -webkit-filter: none !important;
+    filter: none !important;
+  }
+  html.dark-svg .or-tree,
+  html.dark-svg .or-tree .label-node,
+  html.dark-svg .ui-snackbar.flow-action-snackbar {
+    -webkit-filter: url(#dark-reader-reverse-filter) !important;
+    filter: url(#dark-reader-reverse-filter) !important;
+  }
+  html.dark-svg .or-tree .paths path {
+    stroke: #414548;
+  }
+  html.dark-svg .or-tree #path-arrow-end {
+    fill: #414548;
+  }
+  html.dark-svg .or-tree .tooltip-wrapper tspan.tooltip-title .highlight {
+    fill: #fff;
+  }
+  html.dark-svg .or-tree .tree-node .step-shape {
+    fill: #000;
+    stroke: #000;
+  }
+  html.dark-svg .or-tree .tree-node .step-shape .outer-shape {
+    stroke: #414548;
+  }
+  html.dark-svg .or-tree .tree-node .step-icon {
+    fill: #aeb1b3;
+  }
+  html.dark-svg .or-tree .tree-node .custom-step-icon {
+    -webkit-filter: none !important;
+    filter: none !important;
+  }
+  html.dark-svg .or-tree .tree-node.active .step-shape {
+    fill: #293d48;
+    stroke: #293d48;
+  }
+  html.dark-svg .or-tree .tree-node.active .step-shape .outer-shape {
+    stroke: #aeb1b3;
+    fill: #293d48;
+  }
+  html.dark-svg .or-tree .tree-node.active .step-shape .inner-shape {
+    stroke: #293d48;
+  }
+  html.dark-svg .or-tree .tree-node.active .step-icon {
+    fill: #fff;
+  }
+  html.dark-svg .or-tree .tree-node.step-error .step-icon {
+    fill: #000;
+  }
+  html.dark-svg .or-tree .tree-node.step-error.active .step-shape {
+    fill: #293d48;
+    stroke: #293d48;
+  }
+  html.dark-svg .or-tree .tree-node.step-error.active .step-shape .outer-shape {
+    stroke: #ff8c82;
+    fill: #293d48;
+  }
+  html.dark-svg .or-tree .tree-node.step-error.active .step-shape .inner-shape {
+    stroke: #293d48;
+  }
+  html.dark-svg .or-tree .tree-node.step-error.active .step-icon {
+    fill: #fff;
+  }
+  html.dark-svg .or-tree g.empty-tree-node svg.empty-node svg.step-shape {
+    fill: #000;
+  }
+  html.dark-svg .or-tree g.empty-tree-node svg.empty-node.hover svg.step-shape,
+  html.dark-svg .or-tree g.empty-tree-node svg.empty-node svg.step-shape:active,
+  html.dark-svg .or-tree g.empty-tree-node svg.empty-node svg.step-shape:hover {
+    fill: #293d48;
+  }
+  html.dark-svg .gu-mirror .step-shape {
+    -webkit-filter: url(#dark-reader-filter) !important;
+    filter: url(#dark-reader-filter) !important;
+    stroke: #414548;
+  }
+  html.dark-svg .gu-mirror .step-shape .custom-step-icon {
+    -webkit-filter: none !important;
+    filter: none !important;
+  }
+  html.dark-svg
+    .flow-step-list-wrapper
+    .steps-wrapper
+    .step-template
+    .step-shape {
+    -webkit-filter: url(#dark-reader-filter) !important;
+    filter: url(#dark-reader-filter) !important;
+    stroke: #414548;
+  }
+  html.dark-svg
+    .flow-step-list-wrapper
+    .steps-wrapper
+    .step-template
+    .step-shape
+    .custom-step-icon {
+    -webkit-filter: none !important;
+    filter: none !important;
+  }
+  html.dark-svg
+    .flow-step-list-wrapper
+    .steps-wrapper
+    .step-template.is-selected
+    .step-shape:not(.drag-mirror) {
+    fill: #293d48;
+    stroke: #fff;
+  }
+}

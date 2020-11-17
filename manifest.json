@@ -12,7 +12,8 @@
   "content_scripts": [
     {
       "matches": ["*://*.onereach.ai/*"],
-      "js": ["js/main.js"]
+      "css": ["css/dark.css"],
+      "js": ["js/arrive.js", "js/main.js"]
     }
   ]
 }
