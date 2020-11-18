@@ -6,6 +6,16 @@
   html.dark {
     text-shadow: 0 0 0 !important;
     background: #1b1a19 !important;
+    box-shadow: none !important;
+  }
+  html.dark aside {
+    box-shadow: -4px 0 19px 0 rgba(255,255,255,.8) !important;
+  }
+  html.dark .breadcrumbs {
+    box-shadow: 0 4px 5px 0 rgba(255,255,255,.8);
+  }
+  html.dark .ui-modal__container {
+    box-shadow: 0 2px 8px rgba(255,255,255,.8);
   }
   html.dark,
   html.dark #Emojis .container-emoji .grid-emojis span,
@@ -21,8 +31,8 @@
   html.dark svg image,
   html.dark twitterwidget,
   html.dark video {
-    -webkit-filter: invert(80%) hue-rotate(200deg) !important;
-    filter: invert(80%) hue-rotate(200deg) !important;
+    -webkit-filter: invert(90%) hue-rotate(180deg) !important;
+    filter: invert(90%) hue-rotate(180deg) !important;
   }
   html.dark [background] *,html.dark [style*="background-image:url"] *,html.dark [style*="background-image: url"] *,html.dark [style*="background:url"] *,html.dark [style*="background: url"] *,html.dark img[src^="https://s0.wp.com/latex.php"],html.dark input,html.dark twitterwidget .NaturalImage-image
   {
@@ -62,11 +72,17 @@
     -webkit-filter: invert(100%) hue-rotate(180deg) !important;
     filter: invert(100%) hue-rotate(180deg) !important;
   }
+  html.dark .ui-modal__mask {
+    background: rgb(255 255 255 / 0.6);
+  }
   html.dark .or-tree .paths path {
     stroke: #414548;
   }
   html.dark .or-tree #path-arrow-end {
     fill: #414548;
+  }
+  html.dark .or-tree .tooltip-wrapper tspan.tooltip-title {
+    fill: #fff;
   }
   html.dark .or-tree .tooltip-wrapper tspan.tooltip-title .highlight {
     fill: #fff;
@@ -98,6 +114,13 @@
   }
   html.dark .or-tree .tree-node.active .step-icon {
     fill: #fff;
+  }
+  html.dark .or-tree .tree-label .step-type-label rect {
+    fill: #111;
+  }
+  html.dark .or-tree .tree-label .step-type-label text {
+    fill: #fff;
+    stroke: none;
   }
   html.dark .or-tree .tree-node.step-error .step-icon {
     fill: #000;
@@ -229,6 +252,9 @@
   html.dark-svg .or-tree #path-arrow-end {
     fill: #414548;
   }
+  html.dark-svg .or-tree .tooltip-wrapper tspan.tooltip-title {
+    fill: #fff;
+  }
   html.dark-svg .or-tree .tooltip-wrapper tspan.tooltip-title .highlight {
     fill: #fff;
   }
@@ -260,6 +286,7 @@
   html.dark-svg .or-tree .tree-node.active .step-icon {
     fill: #fff;
   }
+  
   html.dark-svg .or-tree .tree-node.step-error .step-icon {
     fill: #000;
   }

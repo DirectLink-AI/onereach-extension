@@ -168,15 +168,26 @@ if (/:\/\/studio\.[^\/]+/.test(location.href)) {
     }
   };
 
+  const addCSS = () => {
+    var head = document.head;
+    var link = document.createElement("link");
+
+    link.type = "text/css";
+    link.rel = "stylesheet";
+    link.href = chrome.runtime.getURL('css/dark.css');
+
+    head.appendChild(link);
+  }
+
   var script = document.createElement("script");
   script.onload = () => {
     document.arrive(
       ".breadcrumbs",
       this.arrive("div", () => setTimeout(updateTitle, 5000))
     );
+    addCSS()
   };
-  script.src =
-    "https://raw.githubusercontent.com/uzairfarooq/arrive/master/minified/arrive.min.js";
+  script.src = chrome.runtime.getURL('js/arrive.js');
 
   document.head.appendChild(script);
 

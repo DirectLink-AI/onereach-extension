@@ -9,10 +9,14 @@
     "128": "images/favicon-1.png"
   },
   "permissions": ["*://*.onereach.ai/*"],
+  "web_accessible_resources": [
+    "js/*",
+    "css/*"
+  ],
   "content_scripts": [
     {
       "matches": ["*://*.onereach.ai/*"],
-      "css": ["css/dark.css"],
+      // "css": ["css/dark.css"],
       "js": ["js/arrive.js", "js/main.js"]
     }
   ]
