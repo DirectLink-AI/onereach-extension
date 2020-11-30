@@ -162,7 +162,7 @@ if (/:\/\/studio\.[^\/]+/.test(location.href)) {
     if (breadcrumbs.length > 0 && breadcrumbs[0].childElementCount > 2) {
       const bot = breadcrumbs[0]?.children[1]?.children[0]?.innerText;
       const flow = breadcrumbs[0]?.children[2]?.children[0]?.innerText;
-      document.title = `${bot && bot + " |"} ${flow && flow}`;
+      document.title = `${flow && flow + ' '} ${bot && `(${bot})`}`;
     } else {
       document.title = `Studio`;
     }
@@ -190,6 +190,22 @@ if (/:\/\/studio\.[^\/]+/.test(location.href)) {
   script.src = chrome.runtime.getURL('js/arrive.js');
 
   document.head.appendChild(script);
+
+  
+var mutationObserver = new MutationObserver(function(mutations) {
+  mutations.forEach(function(mutation) {
+    console.log(mutation);
+  });
+});
+
+mutationObserver.observe(document.documentElement, {
+  attributes: true,
+  characterData: true,
+  childList: true,
+  subtree: true,
+  attributeOldValue: true,
+  characterDataOldValue: true
+});
 
   // window.onload = () =>{
   //   setTimeout(updateTitle, 2000);
